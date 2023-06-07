@@ -12,6 +12,7 @@ module "sandbox" {
 
   account_tags = {
     "application" = "AFT"
+    "business_region" = "us-east-1"
     "owner" = "jacob.sanchez@slalom.com"
   }
 
