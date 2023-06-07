@@ -1,4 +1,4 @@
-module "sandbox" {
+module "sandbox_account_01" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
@@ -21,8 +21,6 @@ module "sandbox" {
     change_reason       = "AWS Control Tower Account Factory for Terraform test run v1"
   }
 
-  custom_fields = {
-    group = "non-prod"
-  }
-  #account_customizations_name = "sandbox"
+
+  account_customizations_name = "sandbox-customizations"
 }
