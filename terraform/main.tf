@@ -24,5 +24,5 @@ module "sandbox" {
   custom_fields = {
     group = "non-prod"
   }
-  account_customizations_name = "sandbox"
+  #account_customizations_name = "sandbox"
 }
