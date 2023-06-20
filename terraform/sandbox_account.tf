@@ -16,4 +16,5 @@ module "sandbox_account" {
         change_requested_by = each.value.change_management_parameters.change_requested_by
         change_reason       = each.value.change_management_parameters.change_reason
     }
+      account_customizations_name = "sandbox-customizations"
 }
