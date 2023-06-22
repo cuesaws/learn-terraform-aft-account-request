@@ -7,3 +7,10 @@ module "sandbox_account" {
   account_customizations_name = "sandbox-customizations-${each.key}"
 }
 
+locals {
+  accounts = var.accounts
+}
+
+output "accounts_output" {
+  value = local.accounts
+}
