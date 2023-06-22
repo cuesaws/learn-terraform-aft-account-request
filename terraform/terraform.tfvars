@@ -23,10 +23,10 @@ accounts = [
   ,
   {
     control_tower_parameters = {
-      AccountEmail              = "jacob.sanchez@slalom.com"
+      AccountEmail              = "sanchezjacob4203@gmail.com"
       AccountName               = "sandbox-account-02"
       ManagedOrganizationalUnit = "AFT (ou-dld9-73newpki)"
-      SSOUserEmail              = "jacob.sanchez@slalom.com"
+      SSOUserEmail              = "sanchezjacob4203@gmail.com"
       SSOUserFirstName          = "Jacob"
       SSOUserLastName           = "Sanchez"
     }
