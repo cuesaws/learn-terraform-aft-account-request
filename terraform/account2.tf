@@ -2,13 +2,14 @@ module "sandbox_account" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-      AccountEmail              = "aws-cues-dev-3@cuesinc.com"
-      AccountName               = "sandbox-account-01"
+      AccountEmail              = "jacob.sanchez@slalom.com"
+      AccountName               = "sandbox-account-02"
       ManagedOrganizationalUnit = "AFT (ou-dld9-73newpki)"
-      SSOUserEmail              = "aws-cues-dev-3@cuesinc.com"
+      SSOUserEmail              = "jacob.sanchez@slalom.com"
       SSOUserFirstName          = "Jacob"
       SSOUserLastName           = "Sanchez"
     }
+
   account_tags = {
     "application" = "AFT"
     "business_region" = "us-east-1"
@@ -20,6 +21,6 @@ module "sandbox_account" {
     change_reason       = "AWS Control Tower Account Factory for Terraform test run v1"
   }
 
-  account_customizations_name = "sandbox-customizations-01"
+  account_customizations_name = "sandbox-customizations-02"
 }
 
