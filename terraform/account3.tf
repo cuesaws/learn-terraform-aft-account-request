@@ -1,4 +1,4 @@
-module "sandbox_account02" {
+module "sandbox_account03" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
