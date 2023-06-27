@@ -20,5 +20,5 @@ module "sandbox_account" {
     change_reason       = "AWS Control Tower Account Factory for Terraform test run v1"
   }
 
-  account_customizations_name = "sandbox-customizations-01"
+  account_customizations_name = "sandbox"
 }
