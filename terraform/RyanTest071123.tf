@@ -2,7 +2,7 @@
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-      AccountEmail              = "rhaughton@cuesinc.com"
+      AccountEmail              = "ryanh@cuesinc.com"
       AccountName               = "Ryan_FL"
       ManagedOrganizationalUnit = "AFT (ou-dld9-73newpki)"
       SSOUserEmail              = "rhaughton@cuesinc.com"
