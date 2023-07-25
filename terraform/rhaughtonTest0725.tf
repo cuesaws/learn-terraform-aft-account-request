@@ -6,7 +6,7 @@ module "rhaughtonTest07252023" {
       AccountName               = "RyanTest725"
       ManagedOrganizationalUnit = "CUES Sandbox (non-prod) (ou-dld9-wt6u80xk)"
       SSOUserEmail              = "rhaughton@cuesinc.com"
-      SSOUserFirstName          = "Ryan 
+      SSOUserFirstName          = "Ryan" 
       SSOUserLastName           = "Haughton"
     }
 
