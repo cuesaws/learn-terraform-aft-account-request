@@ -1,4 +1,4 @@
-/*module "RegionOfPeel_Canada" {
+module "RegionOfPeel_Canada" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
@@ -18,4 +18,4 @@
   }
 
   account_customizations_name = "Prod"
-}*/
+}
