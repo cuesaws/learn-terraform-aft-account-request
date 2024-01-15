@@ -1,4 +1,4 @@
-/*module "AFT_Test_RH_01122024_1" {
+module "AFT_Test_RH_01122024_1" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
@@ -21,4 +21,4 @@
   }
 
   account_customizations_name = "sandbox"
-}*/
+}
